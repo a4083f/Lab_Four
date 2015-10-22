@@ -1,0 +1,86 @@
+/*give all headings same color, font and size, center the headings, use the position attribute*/
+h1   {
+	color:#000066;
+	font-family:Verdana;
+	font-size:3em;
+    margin: 0 auto;
+    width: 400px;
+	text-align:center;
+	position: static;
+    left: 450px;
+    top: 0px;
+	}
+	
+/* unvisited link */
+a:link {
+    color: #660066;
+}
+
+/* visited link */
+a:visited {
+    color: #660066;
+}
+
+/* mouse over link */
+a:hover {
+    color: #660066;
+}
+
+/* selected link */
+a:active {
+    color: #660066;
+}
+
+/*give all footers the same background color, centre them*/
+footer {
+	background-color: #CC6699;
+	margin: 0 auto;
+	width: 800px;
+}
+
+/*style the definition list on the index page, center it*/
+  dt {
+    font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+  }
+  
+  dd {
+	  text-align: center;
+  }
+  
+/*style the navigation id, centre it*/
+#navigation {
+	font-family:Verdana;
+	line-height:30px;
+    background-color:#66FFFF;
+    height:50px;
+    padding:5px;
+	margin: 0 auto;
+	width:800px;
+	text-align:center;
+}
+
+/*style the contact_details class, center it*/
+.contact_details {
+	font-family:Verdana;
+	font-size:10pt;
+	color:#000066;
+	text-align: center;
+}
+
+/*style the footer, float it right*/
+#footer_details  {
+	font-family:Times New Roman;
+	font-size:10pt;
+	color:#990099;
+	float: right;
+}	
+
+iframe {
+	height: 200px;
+}
+
+ul {
+	list-style-type: square;
+	}
